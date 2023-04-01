@@ -1,0 +1,175 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+p{
+    color: #555252;
+}
+/* sections */
+.colored-section{
+    background-color:#ff4c68;
+    color: #fff;
+}
+
+
+.white-section{
+    background-color: #fff;
+
+}
+/* headings */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight:700;
+    line-height: 1.5;
+
+}
+/* title section */
+#title{
+    text-align: left;
+ 
+ }
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 2.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .nav-item {
+    padding: 0 18px;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+.download-button1{
+    
+    margin-right: 5px;
+
+}
+.download-button2{
+    
+    margin-left: 5px;
+
+}
+
+/* title image*/
+.title-image{
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+    
+}
+/* features section */
+#features{
+    
+    position: relative;
+}
+.feature-box{
+    
+    padding: 4.5%;
+}
+.features-title{
+    font-size: 1.5rem;
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonial section  */
+#testimonials{
+    background-color:#ef8172 ;
+    
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+span{
+    color:#696565;
+
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 10px;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    
+    
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-colum{
+    padding:3% 2%;
+   
+}
+.card{
+    border-radius: 0%;
+}
+.btn{
+    border-radius: 10px;
+    margin: 10px;}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1028px) {
+    #title {
+    text-align: center;
+    }
+    .title-image {
+    position: static;
+    transform: rotate(0);
+    }
+    } 
+
+
